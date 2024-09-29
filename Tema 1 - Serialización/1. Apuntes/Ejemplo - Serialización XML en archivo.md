@@ -80,16 +80,3 @@ import com.thoughtworks.xstream.security.AnyTypePermission;4
         System.out.println("Archivo no encontrado: " + file);  
     }
 ````
-
-## Dependencia  JSON
-https://github.com/FasterXML/jackson-dataformats-text/tree/master/properties
-
-```xml
-<dependencies>  
-	<dependency>  
-	    <groupId>com.fasterxml.jackson.dataformat</groupId>  
-	    <artifactId>jackson-dataformat-properties</artifactId>  
-	    <version>2.13.4</version>  
-	</dependency>
-</dependencies>
-```
