@@ -33,8 +33,10 @@ Mediante este objeto, tu aplicación puede comunicarse con la base de datos y re
 
 MySQL: 
 - `jdbc`: protocolo
-- `mysql`: subprotocolo (nombre del driver)
-- `//localhost/profesores`: ubicación y nombre de la db
+- `mysql`: subprotocolo (nombre del driver) (dependencia que importamos)
+- `//localhost/profesores`: ubicación y nombre de la db (ver en documentación)
+
+Poner la db en la raíz del proyecto
 
 ```Java
 jdbc:mysql://127.0.0.1/profresores
@@ -51,7 +53,7 @@ El **Statement** es el comando que envías a la base de datos para ejecutar cons
 
 > **Statement** es el encargado de enviar una consulta SQL a una de las tablas.
 
-### 4. **ResultSet**
+## 4. **ResultSet**
 El **ResultSet** es el conjunto de resultados devuelto por una consulta. 
 Si ejecutas una consulta para obtener datos, los resultados se almacenan en un `ResultSet`, que puedes recorrer para acceder a la información.
 
