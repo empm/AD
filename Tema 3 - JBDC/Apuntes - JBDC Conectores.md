@@ -23,6 +23,21 @@ Componentes API
 ### 1. **DriverManager** 
 El **DriverManager** es el encargado de manejar y cargar los controladores necesarios para conectar Java con una base de datos específica (como MySQL, PostgreSQL, etc.). 
 
+Se cargan a modo dependencias dentro del archivo `pom.xml`.
+Web de referencia para las dependencias:
+https://mvnrepository.com
+#### Dependencias 
+**SQLITE**
+
+```java
+<!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+<dependency>
+    <groupId>org.xerial</groupId>
+    <artifactId>sqlite-jdbc</artifactId>
+    <version>3.44.1.0</version>
+</dependency>
+```
+
 > **DriverManager**, es quien se encarga de establecer la conexión con la base de datos.
 
 ### 2. **Connection**
